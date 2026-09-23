@@ -1,0 +1,16 @@
+import seaborn as sns
+import matplotlib.pylot as pit 
+
+delivery_date=[
+    "Service:"[
+        "Amazon","Flipkart","Myntra","Meesho",
+        "Nykaa","Savana","Purple",""
+    ],
+    "Days:"[
+        1,2,3,4,5,6,7,8,9
+    ],
+]
+
+sns.boxplot(x="Services",y="Days",data=delivery_date)
+
+plt.title("Delivery time comparision")
